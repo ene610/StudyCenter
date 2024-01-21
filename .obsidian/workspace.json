@@ -11,12 +11,8 @@
             "id": "01187de8407e830a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spark Developer/Databricks & apache spark.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spark Developer/Databricks & apache spark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spark Developer/Databricks & apache spark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Spark Developer/Databricks & apache spark.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,11 +140,12 @@
   },
   "active": "01187de8407e830a",
   "lastOpenFiles": [
-    "Spark Developer/IMG/SPark CLuster execution.png",
-    "Spark Developer/Databricks & apache spark.md",
+    "Spark Developer/IMG/Spark execution.png",
     "Spark Developer/IMG/Spark cluster execution.png",
     "Spark Developer/IMG",
-    "Spark Developer/IMG/Spark execution.png",
+    "Spark Developer/Databricks & apache spark.md",
+    "Spark Developer",
+    "Spark Developer/IMG/SPark CLuster execution.png",
     "Pasted image 20240120223114.png",
     "Pasted image 20240120223329.png",
     "Pasted image 20240120222928.png"
