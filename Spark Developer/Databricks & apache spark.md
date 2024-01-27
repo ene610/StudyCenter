@@ -7,3 +7,10 @@ TASK: running a memory partition on COre within executor
 Ogni worker ha ha un esecutore che ha al suo interno dei core che può eseguire un task, questo processo è gestito automaticamente dal driver
 
 Hive metastore: ???
+
+## Functions
+
+[TODO] cancellato per errore
+
+## Architettura
+
