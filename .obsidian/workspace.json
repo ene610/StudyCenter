@@ -8,11 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "01187de8407e830a",
+            "id": "136321c1f9774796",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Spark Developer/Appunti Spark Developer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "86297be141e77f54",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Spark Developer/IMG/Structured Streaming/trigger type.png"
+              }
             }
           }
         ]
@@ -81,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Spark Developer/Appunti Spark Developer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Spark Developer/Appunti Spark Developer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Spark Developer/Appunti Spark Developer.md"
+              }
             }
           }
         ]
@@ -138,16 +156,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "01187de8407e830a",
+  "active": "136321c1f9774796",
   "lastOpenFiles": [
-    "Spark Developer/IMG/Spark execution.png",
-    "Spark Developer/IMG/Spark cluster execution.png",
+    "Spark Developer/Appunti Spark Developer.md",
+    "Spark Developer/IMG/Structured Streaming/handling data with watermarking.png",
+    "Spark Developer/IMG/Delta lake",
+    "Spark Developer/IMG/Structured Streaming/event-time processing.png",
+    "Spark Developer/IMG/Delta lake/architettura delta lakehouse.png",
+    "Spark Developer/IMG/Structured Streaming/sliding window example.png",
+    "Spark Developer/IMG/Structured Streaming/Best pratice streaiming.png",
+    "Spark Developer/IMG/Structured Streaming/trigger type.png",
+    "Spark Developer/IMG/Structured Streaming/Output modes.png",
+    "Spark Developer/IMG/Structured Streaming/micro-batch processing.png",
+    "Spark Developer/IMG/Structured Streaming/pro structured streaming.png",
+    "Spark Developer/IMG/Structured Streaming/batch vs streaming.png",
+    "Spark Developer/IMG/Structured Streaming",
+    "Spark Developer/IMG/Architettura & performance",
+    "Spark Developer/IMG/Functions",
+    "Spark Developer/IMG/Intro",
+    "Spark Developer/IMG/Functions",
+    "Spark Developer/IMG/Intro",
     "Spark Developer/IMG",
-    "Spark Developer/Databricks & apache spark.md",
-    "Spark Developer",
-    "Spark Developer/IMG/SPark CLuster execution.png",
-    "Pasted image 20240120223114.png",
-    "Pasted image 20240120223329.png",
-    "Pasted image 20240120222928.png"
+    "Spark Developer"
   ]
 }
