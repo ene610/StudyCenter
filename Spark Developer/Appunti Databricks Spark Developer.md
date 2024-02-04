@@ -1,11 +1,12 @@
 ## Intro
-SPARK: Analytics engine for big data processing
 
-SPark execution -> osserva la strategia divide & conquer
-![[Spark execution.png]]ACTION: fa iniziare un processo, spawnano dei job, composti da stage composti da task
-TASK: running a memory partition on COre within executor
+SPARK è un engine di Analytics for big data processing
+
+l'esecuzione di Spark segue la strategia divide & conquer
+![[Spark execution.png]]**ACTION**: fa iniziare un processo, crea uno o più job, composto da vari stage che sono a loro volta composti da task. Ogni task esegue le operazioni su una parte di memoria, ognuno su un core del processore.
+
 ![[Spark cluster execution.png]]
-Ogni worker ha ha un esecutore che ha al suo interno dei core che può eseguire un task, questo processo è gestito automaticamente dal driver
+Ogni worker ha ha un esecutore che ha al suo interno uno o più core che esegue un task, questo processo è gestito automaticamente dal driver.
 
 Hive metastore: ???
 
