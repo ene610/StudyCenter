@@ -18,16 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "86297be141e77f54",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Spark Developer/IMG databricks course/Structured Streaming/trigger type.png"
-              }
-            }
           }
         ]
       }
@@ -156,30 +146,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "823e78e6ae128443",
+  "active": "136321c1f9774796",
   "lastOpenFiles": [
-    "Spark Developer/IMG spark course/Cluster components.png",
-    "Spark Developer/Appunti Databricks Spark Developer.md",
     "Spark Developer/Appunti Spark course.md",
+    "Spark Developer/IMG spark course/executros.png",
+    "Spark Developer/Appunti Spark Developer.md",
+    "Spark Developer/IMG spark course/Cluster components.png",
     "Spark Developer/IMG spark course",
-    "Spark Developer/IMG databricks course/Structured Streaming/handling data with watermarking.png",
-    "Spark Developer/IMG databricks course/Delta lake",
-    "Spark Developer/IMG databricks course/Structured Streaming/event-time processing.png",
-    "Spark Developer/IMG databricks course/Delta lake/architettura delta lakehouse.png",
-    "Spark Developer/IMG databricks course/Structured Streaming/sliding window example.png",
-    "Spark Developer/IMG databricks course/Structured Streaming/Best pratice streaiming.png",
     "Spark Developer/IMG databricks course/Structured Streaming/trigger type.png",
-    "Spark Developer/IMG databricks course/Structured Streaming/Output modes.png",
-    "Spark Developer/IMG databricks course/Structured Streaming/micro-batch processing.png",
+    "Spark Developer/IMG databricks course/Structured Streaming/sliding window example.png",
     "Spark Developer/IMG databricks course/Structured Streaming/pro structured streaming.png",
+    "Spark Developer/IMG databricks course/Structured Streaming/micro-batch processing.png",
+    "Spark Developer/IMG databricks course/Structured Streaming/handling data with watermarking.png",
+    "Spark Developer/IMG databricks course/Structured Streaming/event-time processing.png",
     "Spark Developer/IMG databricks course/Structured Streaming/batch vs streaming.png",
+    "Spark Developer/IMG databricks course/Structured Streaming/Output modes.png",
     "Spark Developer/IMG databricks course/Structured Streaming",
+    "Spark Developer/IMG databricks course/Intro",
+    "Spark Developer/IMG databricks course/Delta lake",
     "Spark Developer/IMG databricks course/Architettura & performance",
-    "Spark Developer/IMG/Functions",
-    "Spark Developer/IMG databricks course/Intro",
-    "Spark Developer/IMG/Functions",
-    "Spark Developer/IMG databricks course/Intro",
     "Spark Developer/IMG databricks course",
-    "Spark Developer"
+    "Spark Developer/Appunti Databricks Spark Developer.md",
+    "Spark Developer/IMG/Delta lake",
+    "Spark Developer/IMG/Structured Streaming",
+    "Spark Developer/IMG/Architettura & performance",
+    "Spark Developer/IMG/Functions"
   ]
 }

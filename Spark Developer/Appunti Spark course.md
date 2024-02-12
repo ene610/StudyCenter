@@ -17,3 +17,18 @@ Spark session e esecutori si scambiano dati, se dobbaimo fare un operazione in u
 
 Questa suddivisone non è fisica ma virtuale. un worker node può contenere più esecutori.
 
+**Executors**
+
+![[executros.png]]
+
+Un worker node ha 1 o più executors (tipicamente 1) che non è un programma runnato in una JVM, viene creato quando l'applicazione spark viene iniziata e appartiene a una specifica applicazione. Un executor può lavorare sia in sequenza che in parallelo in base alla configurazione. Un executors è de-commissionato quando finisce l'applicazione Spark oppure quando va in failure.
+
+**Dynamic Resource allocation**
+
+Se attivata, permette di bilanciare il numero di executors in base al carico di lavoro, ottimizzando le performance in scenari in cui il carico di lavoro varia nel tempo.
+Quando è attivata , Spark osserva il carico che deve essere eseguito e crea un numero di esecutori esponenziale (1,2,4,8) in base al carico di lavoro rimanente per poi rimuovere automaticamente quelli che rimangono in idle.
+
+# Execution modes
+
+describe in che tipo di com
+
