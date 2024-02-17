@@ -11,15 +11,24 @@
             "id": "136321c1f9774796",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Spark Developer/Appunti Spark course.md",
-                "mode": "source",
-                "source": false
+                "file": "Spark Developer/IMG spark course/Client mode.png"
+              }
+            }
+          },
+          {
+            "id": "1332fff777146c47",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Spark Developer/IMG spark course/Client mode.png"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spark Developer/Appunti Spark course.md",
+                "file": "Spark Developer/IMG spark course/Client mode.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spark Developer/Appunti Spark course.md",
+                "file": "Spark Developer/IMG spark course/Client mode.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spark Developer/Appunti Spark course.md"
+                "file": "Spark Developer/IMG spark course/Client mode.png"
               }
             }
           }
@@ -146,9 +155,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "136321c1f9774796",
+  "active": "823e78e6ae128443",
   "lastOpenFiles": [
+    "Spark Developer/IMG spark course/Standlone mode.png",
+    "Spark Developer/IMG spark course/Client mode.png",
     "Spark Developer/Appunti Spark course.md",
+    "Spark Developer/IMG spark course/Cluster mode.png",
+    "Spark Developer/IMG spark course/Local mode.png",
     "Spark Developer/IMG spark course/executros.png",
     "Spark Developer/Appunti Spark Developer.md",
     "Spark Developer/IMG spark course/Cluster components.png",
@@ -156,11 +169,6 @@
     "Spark Developer/IMG databricks course/Structured Streaming/trigger type.png",
     "Spark Developer/IMG databricks course/Structured Streaming/sliding window example.png",
     "Spark Developer/IMG databricks course/Structured Streaming/pro structured streaming.png",
-    "Spark Developer/IMG databricks course/Structured Streaming/micro-batch processing.png",
-    "Spark Developer/IMG databricks course/Structured Streaming/handling data with watermarking.png",
-    "Spark Developer/IMG databricks course/Structured Streaming/event-time processing.png",
-    "Spark Developer/IMG databricks course/Structured Streaming/batch vs streaming.png",
-    "Spark Developer/IMG databricks course/Structured Streaming/Output modes.png",
     "Spark Developer/IMG databricks course/Structured Streaming",
     "Spark Developer/IMG databricks course/Intro",
     "Spark Developer/IMG databricks course/Delta lake",

@@ -30,5 +30,10 @@ Quando è attivata , Spark osserva il carico che deve essere eseguito e crea un 
 
 # Execution modes
 
-describe in che tipo di com
+descrive l'infrastruttura computazionale usata da spark, in particolare, il network e i nodi.
+(deployement mode vs execution mode spesso sono la stessa cosa).
 
+- **Local mode**: tutte le componenti sono eseguite in una singola JVM. driver, executor e "cluster manager" sono eseguiti sulla stessa macchina per testing purpose. Il cluster manager non fa molto poichè le risorse si trovano tutte in un punto.![[Local mode.png]]
+- **Standlone mode**: le componenti girano su un singolo cluster. Il cluster manager e il driver possono girare su un nodo in cui gira già un esecutore.![[Standlone mode.png]]
+- **Client mode**: Il driver (edge node) è eseguito al di fuori del cluster, il cluster manager è eseguito su un nodo a parte.![[Client mode.png]]
+- **Cluster mode:** il driver viene eseguito all'interno del cluster in un nodo dedicato.![[Cluster mode.png]]
