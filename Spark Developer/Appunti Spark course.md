@@ -4,6 +4,8 @@ Distribuited computin significa più potenza ma maggiore complessità (Debugging
 
 # Cluster components
 
+![[Cluster architecture.png]]
+
 **Driver**: è il guidatore degli esecutori, contiene il codice e delega i compiti agli esecutori 
 **Esecutori**: esegue i compiti, più esecutori abbiamo più possiamo dividere i compiti
 **Cluster manager**: è il responsabile della gestione del cluster e mette in collegamento gli esecutori con il driver. Quando il driver decide cosa deve esser fatto e come, richiede le risorse al cluster manager che riserverà un numero di esecutori in base al workload.
@@ -16,6 +18,8 @@ Quando un driver ha necessità di eseguire un workload allora richiede al cluste
 Spark session e esecutori si scambiano dati, se dobbaimo fare un operazione in una tabella questa viene inviata in parti a 1 o più esecutori. quando gli esecutori hanno finito con i calcoli questi inviano i risultati al driver. Anche gli esecutori tra di loro si scambiano i dati in base alle esecuzioni che devono completare.
 
 Questa suddivisone non è fisica ma virtuale. un worker node può contenere più esecutori.
+
+
 
 **Executors**
 
@@ -30,6 +34,7 @@ Quando è attivata , Spark osserva il carico che deve essere eseguito e crea un 
 
 # Execution modes
 
+(Spark's execution/deployment mode determines where the driver and executors are physically located when a Spark application is run)
 descrive l'infrastruttura computazionale usata da spark, in particolare, il network e i nodi.
 (deployement mode vs execution mode spesso sono la stessa cosa).
 
@@ -37,3 +42,10 @@ descrive l'infrastruttura computazionale usata da spark, in particolare, il netw
 - **Standlone mode**: le componenti girano su un singolo cluster. Il cluster manager e il driver possono girare su un nodo in cui gira già un esecutore.![[Standlone mode.png]]
 - **Client mode**: Il driver (edge node) è eseguito al di fuori del cluster, il cluster manager è eseguito su un nodo a parte.![[Client mode.png]]
 - **Cluster mode:** il driver viene eseguito all'interno del cluster in un nodo dedicato.![[Cluster mode.png]]
+
+# Executor Memory management
+
+## Caching & Storage levels
+
+caching significa persistere i dati nel esecutore. utile quando devi usare dati o risultati, in questo caso i dati sono disponibili se sono richiesti nuovamente.
+i dati sono storati in diversi Storage levels:

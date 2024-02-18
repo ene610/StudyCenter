@@ -21,9 +21,11 @@
             "id": "1332fff777146c47",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Spark Developer/IMG spark course/Client mode.png"
+                "file": "Spark Developer/Appunti Spark course.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -94,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spark Developer/IMG spark course/Client mode.png",
+                "file": "Spark Developer/Appunti Spark course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spark Developer/IMG spark course/Client mode.png",
+                "file": "Spark Developer/Appunti Spark course.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spark Developer/IMG spark course/Client mode.png"
+                "file": "Spark Developer/Appunti Spark course.md"
               }
             }
           }
@@ -155,11 +157,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "823e78e6ae128443",
+  "active": "1332fff777146c47",
   "lastOpenFiles": [
-    "Spark Developer/IMG spark course/Standlone mode.png",
-    "Spark Developer/IMG spark course/Client mode.png",
+    "cache option & storage levels.png",
     "Spark Developer/Appunti Spark course.md",
+    "Spark Developer/IMG spark course/Cluster architecture.png",
+    "Spark Developer/Appunti Databricks Spark Developer.md",
+    "Spark Developer/IMG spark course/Client mode.png",
+    "Spark Developer/IMG spark course/Standlone mode.png",
     "Spark Developer/IMG spark course/Cluster mode.png",
     "Spark Developer/IMG spark course/Local mode.png",
     "Spark Developer/IMG spark course/executros.png",
@@ -168,13 +173,11 @@
     "Spark Developer/IMG spark course",
     "Spark Developer/IMG databricks course/Structured Streaming/trigger type.png",
     "Spark Developer/IMG databricks course/Structured Streaming/sliding window example.png",
-    "Spark Developer/IMG databricks course/Structured Streaming/pro structured streaming.png",
     "Spark Developer/IMG databricks course/Structured Streaming",
     "Spark Developer/IMG databricks course/Intro",
     "Spark Developer/IMG databricks course/Delta lake",
     "Spark Developer/IMG databricks course/Architettura & performance",
     "Spark Developer/IMG databricks course",
-    "Spark Developer/Appunti Databricks Spark Developer.md",
     "Spark Developer/IMG/Delta lake",
     "Spark Developer/IMG/Structured Streaming",
     "Spark Developer/IMG/Architettura & performance",
