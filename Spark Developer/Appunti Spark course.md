@@ -47,5 +47,14 @@ descrive l'infrastruttura computazionale usata da spark, in particolare, il netw
 
 ## Caching & Storage levels
 
-caching significa persistere i dati nel esecutore. utile quando devi usare dati o risultati, in questo caso i dati sono disponibili se sono richiesti nuovamente.
-i dati sono storati in diversi Storage levels:
+Caching significa persistere i dati nel esecutore. utile quando devi usare dati o risultati frequnetemente, affinchè i dati sono disponibili se richiesti nuovamente.
+i dati sono memorizzati in diversi Storage levels:
+
+![[Caching & storage levels.png]]
+
+Nel caso del memory level "Memory only" i dati sono salvati in cache, permettendo un più veloce accesso mentre nel caso di "Memory And Disk" i dati sono salvati in prima battuta sulla cache, quelli che eccedono la memoria sono salvati sul disco del executor.
+
+![[Caching eviction.png]]
+
+In scala invece possono essere salvati anche in formato serializzato, in pyspark non è possbili scegliere questa opzione (sono sempre serializzati).
+![[Code4Caching.png]]

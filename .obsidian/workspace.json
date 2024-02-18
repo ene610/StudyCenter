@@ -11,16 +11,6 @@
             "id": "136321c1f9774796",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Spark Developer/IMG spark course/Client mode.png"
-              }
-            }
-          },
-          {
-            "id": "1332fff777146c47",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "Spark Developer/Appunti Spark course.md",
@@ -28,9 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "86297be141e77f54",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Spark Developer/IMG Databricks Course/Structured Streaming/trigger type.png"
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,30 +156,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1332fff777146c47",
+  "active": "823e78e6ae128443",
   "lastOpenFiles": [
-    "cache option & storage levels.png",
+    "Spark Developer/IMG Spark Course/Code4Caching.png",
+    "Spark Developer/IMG Spark Course/Caching eviction.png",
     "Spark Developer/Appunti Spark course.md",
-    "Spark Developer/IMG spark course/Cluster architecture.png",
+    "Spark Developer/IMG Spark Course/Caching & storage levels.png",
+    "Spark Developer/IMG Spark Course/executros.png",
+    "Spark Developer/IMG Spark Course/Standlone mode.png",
+    "Spark Developer/IMG Spark Course/Local mode.png",
+    "Spark Developer/IMG Spark Course/Cluster mode.png",
+    "Spark Developer/IMG Spark Course/Cluster architecture.png",
+    "Spark Developer/IMG Spark Course/Client mode.png",
+    "Spark Developer/IMG Spark Course/Cluster components.png",
     "Spark Developer/Appunti Databricks Spark Developer.md",
-    "Spark Developer/IMG spark course/Client mode.png",
-    "Spark Developer/IMG spark course/Standlone mode.png",
-    "Spark Developer/IMG spark course/Cluster mode.png",
-    "Spark Developer/IMG spark course/Local mode.png",
-    "Spark Developer/IMG spark course/executros.png",
-    "Spark Developer/Appunti Spark Developer.md",
-    "Spark Developer/IMG spark course/Cluster components.png",
-    "Spark Developer/IMG spark course",
-    "Spark Developer/IMG databricks course/Structured Streaming/trigger type.png",
-    "Spark Developer/IMG databricks course/Structured Streaming/sliding window example.png",
-    "Spark Developer/IMG databricks course/Structured Streaming",
-    "Spark Developer/IMG databricks course/Intro",
-    "Spark Developer/IMG databricks course/Delta lake",
-    "Spark Developer/IMG databricks course/Architettura & performance",
-    "Spark Developer/IMG databricks course",
-    "Spark Developer/IMG/Delta lake",
-    "Spark Developer/IMG/Structured Streaming",
-    "Spark Developer/IMG/Architettura & performance",
-    "Spark Developer/IMG/Functions"
+    "Spark Developer/IMG Spark Course",
+    "Spark Developer/IMG Databricks Course/Structured Streaming/handling data with watermarking.png",
+    "Spark Developer/IMG Databricks Course/Delta lake",
+    "Spark Developer/IMG Databricks Course/Structured Streaming",
+    "Spark Developer/IMG Databricks Course/Architettura & performance",
+    "Spark Developer/IMG/Functions",
+    "Spark Developer/IMG Databricks Course/Intro",
+    "Spark Developer/IMG/Functions",
+    "Spark Developer/IMG Databricks Course/Intro",
+    "Spark Developer/IMG Databricks Course",
+    "Spark Developer"
   ]
 }
