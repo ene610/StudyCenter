@@ -58,3 +58,12 @@ Nel caso del memory level "Memory only" i dati sono salvati in cache, permettend
 
 In scala invece possono essere salvati anche in formato serializzato, in pyspark non è possbili scegliere questa opzione (sono sempre serializzati).
 ![[Code4Caching.png]]
+
+## Partition functions
+
+**repartition** e **coalesce** sono le funzioni che partizionamento il dataframe.
+La differenza tra le due funzioni sono:
+
+- repartition incrementa e diminuisce le partizioni, coalesce riduce il numero di partizioni
+- repartition è una wide trasformation (causa una shuffle), coalesce è una narrow transformation, repartition è più lenta della coalesce
+- repartition distribuisce bene i dati rispetto a una coalesce, che può risultare in una data skew
