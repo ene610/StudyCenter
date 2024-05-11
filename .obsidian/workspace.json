@@ -4,55 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d043e5d9fb77fa0c",
+        "id": "21160a6e2be3c5f5",
         "type": "tabs",
         "children": [
           {
-            "id": "136321c1f9774796",
+            "id": "591dd6a652d1f3b8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spark Developer/Appunti Spark course.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86297be141e77f54",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Spark Developer/IMG spark course/Hash Partition.png"
-              }
-            }
-          },
-          {
-            "id": "c8271fcfa7e6ed2e",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
-              }
-            }
-          },
-          {
-            "id": "c7ae3f0b99b398dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Test EXPORT/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 398.5
   },
   "right": {
     "id": "a05c94e2771026fe",
@@ -118,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test EXPORT/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test EXPORT/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Test EXPORT/Untitled.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -179,33 +138,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "823e78e6ae128443",
+  "active": "591dd6a652d1f3b8",
   "lastOpenFiles": [
-    "Spark Developer appunti.rar",
-    "Spark Developer/Appunti Spark course.md",
-    "Test EXPORT/Untitled.md",
+    "AI 102/1 - Prepare to develop AI solutions on Azure.md",
+    "AI 102/3 - Secure Azure AI services.md",
+    "AI 102/6 - Analyze images.md",
+    "AI 102/30 - Fundamentals of Responsible Generative AI.md",
+    "AI 102/29 - Implement Retrieval Augmented Generation (RAG) with Azure OpenAI Service.md",
+    "AI 102/28 - Generate images with Azure OpenAI Service.md",
+    "AI 102/27 - Generate code with Azure OpenAI Service.md",
+    "AI 102/26 - Apply prompt engineering with Azure OpenAI Service.md",
+    "AI 102/25 - Build natural language solutions with Azure OpenAI Service.md",
+    "AI 102/24 - Get started with Azure OpenAI Service.md",
+    "AI 102/23 - Extract data from forms with Azure Document intelligence.md",
+    "AI 102/22 - Use prebuilt Document intelligence models.md",
+    "AI 102/22 - Plan an Azure AI Document Intelligence solution.md",
+    "AI 102/21 - Create a knowledge store with Azure AI Search.md",
+    "AI 102/20 - Create a custom skill for Azure AI Search.md",
+    "AI 102/19 - Create an Azure AI Search solution.md",
+    "AI 102/18 - Translate speech with the Azure AI Speech service.md",
+    "AI 102/17 - Create speech-enabled apps with Azure AI services.md",
+    "AI 102/16 - Translate text with Azure AI Translator service.md",
+    "AI 102/15 - Custom named entity recognition.md",
+    "AI 102/14 - Create a custom text classification solution.md",
+    "AI 102/13 - Build a conversational language understanding model.md",
+    "AI 102/12 - Create question answering solutions with Azure AI Language.md",
+    "AI 102/11 - Analyze text with Azure AI Language.md",
+    "AI 102/10 - Analyze video.md",
+    "AI 102/9 - Read Text in images and documents with the Azure AI Vision Service.md",
+    "Pasted image 20240430114729.png",
+    "Pasted image 20240430110147.png",
+    "Pasted image 20240430105803.png",
+    "Pasted image 20240430105358.png",
+    "Pasted image 20240430105250.png",
+    "Pasted image 20240430102719.png",
+    "Pasted image 20240430092548.png",
+    "Pasted image 20240429122344.png",
+    "Pasted image 20240429120155.png",
+    "Pasted image 20240429115246.png",
     "Test EXPORT",
-    "Spark Developer/Appunti Databricks Spark Developer.md",
-    "Spark Developer/IMG spark course/Cluster mode.png",
-    "Spark Developer/IMG spark course/Caching eviction.png",
-    "Spark Developer/IMG spark course/Caching & storage levels.png",
-    "Spark Developer/IMG spark course/Broadcast variables.png",
+    "Spark Developer appunti.rar",
     "AI 102",
-    "Spark Developer/IMG spark course/Tipi di join.png",
-    "Spark Developer/IMG spark course/Execution hierarchy schema 2.png",
-    "Spark Developer/IMG spark course/Execution hierarchy schema.png",
-    "Spark Developer/IMG spark course/stage.png",
-    "Spark Developer/IMG spark course/Execution hierarchy.png",
-    "Spark Developer/IMG spark course/Standlone mode.png",
-    "README.md",
-    "Spark Developer/Appunti Spark Developer.md",
-    "Spark Developer/IMG spark course",
-    "Spark Developer/IMG databricks course/Structured Streaming",
-    "Spark Developer/IMG databricks course/Intro",
-    "Spark Developer/IMG databricks course/Delta lake",
-    "Spark Developer/IMG databricks course/Architettura & performance",
-    "Spark Developer/IMG databricks course",
-    "Spark Developer/IMG/Delta lake",
-    "Spark Developer/IMG/Structured Streaming"
+    "Spark Developer/IMG Spark Course",
+    "Spark Developer/IMG Databricks Course/Delta lake",
+    "Spark Developer/IMG Databricks Course/Structured Streaming",
+    "Spark Developer/IMG Databricks Course/Architettura & performance",
+    "Spark Developer/IMG/Functions",
+    "Spark Developer/IMG Databricks Course/Intro",
+    "Spark Developer/IMG/Functions"
   ]
 }
