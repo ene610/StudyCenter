@@ -1,7 +1,6 @@
 # Introduction
 
-Azure 
-AI Search enables you to create search solutions in which a pipeline of AI skills is used to enrich data and populate an index. The data enrichments performed by the skills in the pipeline supplement the source data with insights such as:
+Azure AI Search enables you to create search solutions in which a pipeline of AI skills is used to enrich data and populate an index. The data enrichments performed by the skills in the pipeline supplement the source data with insights such as:
 
 - The language in which a document is written.
 - Key phrases that might help determine the main themes or topics discussed in a document.

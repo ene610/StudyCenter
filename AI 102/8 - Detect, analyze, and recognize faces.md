@@ -13,10 +13,6 @@ After completing this module, you’ll be able to:
 - Learn about facial recognition.
 # Identify options for face detection analysis and identification
 
-Completed 100 XP
-
-- 5 minutes
-
 There are two Azure AI services that you can use to build solutions that detect faces or people in images.
 
 ![The Azure AI Vision and Face services offer facial analysis capabilities](https://learn.microsoft.com/en-gb/training/wwl-data-ai/detect-analyze-recognize-faces/media/face-options.png)
@@ -38,10 +34,6 @@ Important
 
 Usage of facial recognition, identification, comparison, and verification will require getting approved through a [Limited Access policy](https://aka.ms/cog-services-limited-access). You can read more about the [addition of this policy](https://azure.microsoft.com/blog/responsible-ai-investments-and-safeguards-for-facial-recognition/) to our Responsible AI standard. Facial recognition will be touched on in the rest of this module, but will be unavailable without applying for Limited Access.
 # Understand considerations for face analysis
-
-Completed 100 XP
-
-- 3 minutes
 
 While all applications of artificial intelligence require considerations for responsible and ethical use, system that rely on facial data can be particularly problematic.
 
@@ -101,10 +93,6 @@ Azure AI Vision previously included age and gender prediction, however that has 
 
 # Understand capabilities of the face service
 
-Completed 100 XP
-
-- 5 minutes
-
 The **Face** service provides comprehensive facial detection, analysis, and recognition capabilities.
 
 ![The Face service provides a wide range of facial analysis capabilities](https://learn.microsoft.com/en-gb/training/wwl-data-ai/detect-analyze-recognize-faces/media/face-service.png)
@@ -144,10 +132,6 @@ While the detected face ID is cached, subsequent images can be used to compare t
 This ability to compare faces anonymously can be useful in systems where it's important to confirm that the same person is present on two occasions, without the need to know the actual identity of the person. For example, by taking images of people as they enter and leave a secured space to verify that everyone who entered leaves.
 
 # Implement facial recognition
-
-Completed 100 XP
-
-- 6 minutes
 
 For scenarios where you need to positively identify individuals, you can train a facial recognition model using face images.
 

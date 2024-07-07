@@ -11,10 +11,6 @@ After completing this module, you’ll be able to:
 - Use Azure Video Indexer widgets and APIs.
 # Understand Azure Video Indexer capabilities
 
-Completed 100 XP
-
-- 3 minutes
-
 The **Azure Video Indexer** service is designed to help you extract information from videos. It provides functionality that you can use for:
 
 - _Facial recognition_ - detecting the presence of individual people in the image. This requires [Limited Access](https://aka.ms/cog-services-limited-access) approval.
@@ -31,10 +27,6 @@ The Video Analyzer service provides a portal website that you can use to upload,
 ![The Video Analyzer portal](https://learn.microsoft.com/en-gb/training/wwl-data-ai/analyze-video/media/video-indexer-portal.png)
 # Extract custom insights
 
-Completed 100 XP
-
-- 3 minutes
-
 Azure Video Indexer includes predefined models that can recognize well-known celebrities, do OCR, and transcribe spoken phrases into text. You can extend the recognition capabilities of Video Analyzer by creating custom models for:
 
 - **People**. Add images of the faces of people you want to recognize in videos, and train a model. Video Indexer will then recognize these people in all of your videos.
@@ -46,10 +38,6 @@ Azure Video Indexer includes predefined models that can recognize well-known cel
 - **Language**. If your organization uses specific terminology that may not be in common usage, you can train a custom model to detect and transcribe it.
 - **Brands**. You can train a model to recognize specific names as brands, for example to identify products, projects, or companies that are relevant to your business.
 # Use Video Analyzer widgets and APIs
-
-Completed 100 XP
-
-- 3 minutes
 
 While you can perform all video analysis tasks in the Azure Video Indexer portal, you may want to incorporate the service into custom applications. There are two ways you can accomplish this.
 

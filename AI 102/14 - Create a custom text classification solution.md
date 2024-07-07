@@ -12,10 +12,6 @@ After completing this module, you'll be able to:
 - Submit classification tasks from your own app.
 # Understand types of classification projects
 
-Completed 100 XP
-
-- 6 minutes
-
 Custom text classification assigns labels, which in the Azure AI Language service is a _class_ that the developer defines, to text files. For example, a video game summary might be classified as "Adventure", "Strategy", "Action" or "Sports".
 
 Custom text classification falls into two types of projects:
@@ -171,10 +167,6 @@ JSON
 }
 ```
 # Understand how to build text classification projects
-
-Completed 100 XP
-
-- 12 minutes
 
 Custom text classification projects are your workspace to build, train, improve, and deploy your classification model. You can work with your project in two ways: through **Language Studio** and via the REST API. Language Studio is the GUI that will be used in the lab, but the REST API has the same functionality. Regardless of which method you prefer, the steps for developing your model are the same.
 

@@ -106,10 +106,6 @@ If you prefer to use another language, you can call Azure AI Document Intelligen
 - [Azure AI Document Intelligence Studio (preview)](https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/concept-form-recognizer-studio)
 # Plan Azure AI Document Intelligence resources
 
-Completed 100 XP
-
-- 4 minutes
-
 Choose your development language
 
 To build an Azure AI Document Intelligence solution, you must create and configure the necessary resources in your Azure subscription.

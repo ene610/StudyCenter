@@ -67,7 +67,7 @@ Ci sono diversi meccanismi di partizionamento:
 
 ![[Hash Partition.png]]
 
-La grandezza delle partizioni o la loro numerosità è fissa e definita nelle configurazioni di spark, l'importante è che le partizioni siano di una dimensione ivatale per cui possano rientrare nella memoria degli esecutori. (TODO cosa succede in caso contrario?)
+La grandezza delle partizioni o la loro numerosità è fissa e definita nelle configurazioni di spark, l'importante è che le partizioni siano di una dimensione tale per cui possano rientrare nella memoria degli esecutori. (TODO cosa succede in caso contrario?)
 
 ### Shuffle
 

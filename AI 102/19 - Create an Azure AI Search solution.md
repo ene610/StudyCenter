@@ -22,10 +22,6 @@ By the end of this module, you'll learn how to:
 - Develop a search application
 # Manage capacity
 
-Completed 100 XP
-
-- 3 minutes
-
 To create an Azure AI Search solution, you need to create an **Azure AI Search** resource in your Azure subscription. Depending on the specific solution you intend to build, you may also need Azure resources for data storage and other application services.
 
 ## Service tiers and capacity management
@@ -56,10 +52,6 @@ Tip
 
 You can learn more about pricing tiers and capacity management in the [Azure AI Search documentation](https://learn.microsoft.com/en-us/azure/search/search-sku-tier).
 # Understand search components
-
-Completed 100 XP
-
-- 5 minutes
 
 An AI Search solution consists of multiple components, each playing an important part in the process of extracting, enriching, indexing, and searching data.
 
@@ -116,10 +108,6 @@ Each index field can be configured with the following attributes:
 - **retrievable**: Fields that can be included in search results (_by default, all fields are retrievable unless this attribute is explicitly removed_).
 
 # Understand the indexing process
-
-Completed 100 XP
-
-- 5 minutes
 
 The indexing process works by creating a **document** for each indexed entity. During indexing, an _enrichment pipeline_ iteratively builds the documents that combine metadata from the data source with enriched fields extracted by cognitive skills. You can think of each indexed document as a JSON structure, which initially consists of a **document** with the index fields you have mapped to fields extracted directly from the source data, like this:
 
@@ -184,10 +172,6 @@ The fields in the final document structure at the end of the pipeline are mapped
 2. Output fields from the skills in the skillset are explicitly mapped from their hierarchical location in the output to the target field in the index.
 # Search an index
 
-Completed 100 XP
-
-- 5 minutes
-
 After you have created and populated an index, you can query it to search for information in the indexed document content. While you could retrieve index entries based on simple field value matching, most search solutions use _full text search_ semantics to query an index.
 
 ## Full text search
@@ -216,10 +200,6 @@ Note
 
 For more information about querying an index, and details about **simple** and **full** syntax, see [Query types and composition in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/search-query-overview) in the Azure AI Search documentation.
 # Apply filtering and sorting
-
-Completed 100 XP
-
-- 4 minutes
 
 It's common in a search solution for users to want to refine query results by filtering and sorting based on field values. Azure AI Search supports both of these capabilities through the search query API.
 
@@ -286,10 +266,6 @@ Note
 
 For more information about using filters, see [Filters in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/search-filters). For information about working with results, including sorting and hit highlighting, see [How to work with search results in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/search-pagination-page-layout).
 # Enhance the index
-
-Completed 100 XP
-
-- 6 minutes
 
 With a basic index and a client that can submit queries and display results, you can achieve an effective search solution. However, Azure AI Search supports several ways to enhance an index to provide a better user experience. This topic describes some of the ways in which you can extend your search solution.
 

@@ -9,10 +9,6 @@ After completing this module, you’ll be able to:
 - Train an image classifier.
 # Provision Azure resources for Azure AI Custom Vision
 
-Completed 100 XP
-
-- 3 minutes
-
 The **Azure AI Custom Vision** service enables you to build your own computer vision models for _image classification_ or _object detection_.
 
 Creating an Azure AI Custom Vision solution involves two tasks:
@@ -35,10 +31,6 @@ You can use a single **Azure AI Services** resource for both training and predic
 
 ---
 # Understand image classification
-
-Completed 100 XP
-
-- 3 minutes
 
 _Image classification_ is a computer vision technique in which a model is trained to predict a class label for an image based on its contents. Usually, the class label relates to the main _subject_ of the image.
 

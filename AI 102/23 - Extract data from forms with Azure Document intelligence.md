@@ -31,10 +31,6 @@ Azure Document Intelligence services provide the building blocks for automation 
 To complete this module, you'll need a Microsoft Azure subscription. If you don't already have one, you can sign up for a free trial at [https://azure.microsoft.com](https://azure.microsoft.com/).
 # What is Azure Document Intelligence?
 
-Completed 100 XP
-
-- 4 minutes
-
 Azure Document Intelligence is one of many Azure AI Services, cloud-based artificial intelligence (AI) services with REST APIs and client library SDKs that can be used to build intelligence into your applications.
 
 Azure Document Intelligence uses Optical Character Recognition (OCR) capabilities and deep learning models to extract text, key-value pairs, selection marks, and tables from documents.

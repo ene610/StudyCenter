@@ -23,10 +23,6 @@ The units in the module include important conceptual information about Azure AI 
 ---
 # Provision an Azure resource for speech
 
-Completed 100 XP
-
-- 2 minutes
-
 Before you can use Azure AI Speech, you need to create an Azure AI Speech resource in your Azure subscription. You can use either a dedicated Azure AI Speech resource or a multi-service Azure AI Services resource.
 
 After you create your resource, you'll need the following information to use it from a client application through one of the supported SDKs:
@@ -36,10 +32,6 @@ After you create your resource, you'll need the following information to use it 
 
 You can view of these values on the **Keys and Endpoint** page for your resource in the Azure portal.
 # Use the Azure AI Speech to Text API
-
-Completed 100 XP
-
-- 5 minutes
 
 The Azure AI Speech service supports speech recognition through two REST APIs:
 
@@ -71,10 +63,6 @@ While the specific details vary, depending on the SDK being used (Python, C#, an
 If the operation was successful, the **Reason** property has the enumerated value **RecognizedSpeech**, and the **Text** property contains the transcription. Other possible values for **Result** include **NoMatch** (indicating that the audio was successfully parsed but no speech was recognized) or **Canceled**, indicating that an error occurred (in which case, you can check the **Properties** collection for the **CancellationReason** property to determine what went wrong).
 # Use the text to speech API
 
-Completed 100 XP
-
-- 4 minutes
-
 Similarly to its **Speech to text** APIs, the Azure AI Speech service offers other REST APIs for speech synthesis:
 
 - The **Text to speech** API, which is the primary way to perform speech synthesis.
@@ -102,10 +90,6 @@ The pattern for implementing speech synthesis is similar to that of speech recog
 
 When speech has been successfully synthesized, the **Reason** property is set to the **SynthesizingAudioCompleted** enumeration and the **AudioData** property contains the audio stream (which, depending on the **AudioConfig** may have been automatically sent to a speaker or file).
 # Configure audio format and voices
-
-Completed 100 XP
-
-- 3 minutes
 
 When synthesizing speech, you can use a **SpeechConfig** object to customize the audio that is returned by the Azure AI Speech service.
 

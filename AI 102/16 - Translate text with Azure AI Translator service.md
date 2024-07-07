@@ -12,10 +12,6 @@ After completing this module, you'll be able to:
 - Define and run custom translations
 # Provision an Azure AI Translator resource
 
-Completed 100 XP
-
-- 2 minutes
-
 **Azure AI Translator** provides a multilingual text translation API that you can use for:
 
 - Language detection.
@@ -34,10 +30,6 @@ Note
 
 The code examples in the subsequent units in this module show the JSON requests and responses exchanged with the REST interface. When using an SDK, the JSON requests are abstracted by appropriate objects and methods that encapsulate the same data values. You'll get a chance to try the SDK for C# or Python for yourself in the exercise later in the module.
 # Understand language detection, translation, and transliteration
-
-Completed 100 XP
-
-- 3 minutes
 
 Let's explore the capabilities of **Azure AI Translator**. These capabilities include:
 
@@ -133,10 +125,6 @@ JSON
 ```
 # Specify translation options
 
-Completed 100 XP
-
-- 4 minutes
-
 The **Translate** function of the API supports numerous parameters that affect the output.
 
 ## Word alignment
@@ -216,10 +204,6 @@ Note
 
 To learn more about the translation options, including some not described here, see the [Azure AI Translator API documentation](https://learn.microsoft.com/en-us/azure/ai-services/translator/reference/v3-0-translate).
 # Define custom translations
-
-Completed 100 XP
-
-- 5 minutes
 
 While the default translation model used by Azure AI Translator is effective for general translation, you may need to develop a translation solution for businesses or industries in that have specific vocabularies of terms that require custom translation.
 

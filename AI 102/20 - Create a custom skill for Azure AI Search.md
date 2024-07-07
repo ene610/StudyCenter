@@ -22,10 +22,6 @@ Note
 This module assumes you already know how to create and use an Azure AI Search solution that includes built-in skills. If not, complete the [Create an Azure AI Search solution](https://learn.microsoft.com/en-us/training/modules/create-azure-cognitive-search-solution/) module first.
 # Create a custom skill
 
-Completed 100 XP
-
-- 5 minutes
-
 Your custom skill must implement the expected schema for input and output data that is expected by skills in an Azure AI Search skillset.
 
 ## Input Schema
@@ -97,10 +93,6 @@ JSON
 The output value in this schema is a _property bag_ that can contain any JSON structure, reflecting the fact that index fields aren't necessarily simple data values, but can contain complex types.
 
 # Add a custom skill to a skillset
-
-Completed 100 XP
-
-- 5 minutes
 
 To integrate a custom skill into your indexing solution, you must add a skill for it to a skillset using the **Custom.WebApiSkill** skill type.
 

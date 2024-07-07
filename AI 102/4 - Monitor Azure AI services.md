@@ -1,9 +1,5 @@
 # Introduction
 
-Completed 100 XP
-
-- 1 minute
-
 Azure AI services provides a cloud-based platform for building artificial intelligence capabilities into your applications. Like any software service, you should monitor AI services to track costs, identify utilization trends, and detect potential issues.
 
 After completing this module, you'll be able to:
@@ -12,10 +8,6 @@ After completing this module, you'll be able to:
 - Create alerts and view metrics for Azure AI services.
 - Manage Azure AI services diagnostic logging.
 # Monitor cost
-
-Completed 100 XP
-
-- 3 minutes
 
 One of the main benefits of using cloud services is that you can gain cost efficiencies by only paying for services as you use them. Some Azure AI services resources offer a free tier with restrictions on use, which is useful for development and testing; and one or more billed tiers that incur charges based on transactions. The specific billing rate depends on the resource type.
 
@@ -39,10 +31,6 @@ For more information, see [Plan and manage costs for Azure AI services](https://
 
 # Create alerts
 
-Completed 100 XP
-
-- 3 minutes
-
 Microsoft Azure provides alerting support for resources through the creation of _alert rules_. You use alert rules to configure notifications and alerts for your resources based on events or metric thresholds. These alerts will ensure that the correct team knows when a problem arises.
 
 ![A screenshot of an alert in the Azure portal and an email.](https://learn.microsoft.com/en-gb/training/wwl-data-ai/monitor-ai-services/media/alert.png)
@@ -61,10 +49,6 @@ Note
 For more information, see [Overview of alerts in Microsoft Azure](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview) in the Azure documentation.
 
 # View metrics
-
-Completed 100 XP
-
-- 3 minutes
 
 Azure Monitor collects metrics for Azure resources at regular intervals so that you can track indicators of resource utilization, health, and performance. The specific metrics gathered depend on the Azure resource. In the case of Azure AI services, Azure Monitor collects metrics relating to endpoint requests, data submitted and returned, errors, and other useful measurements.
 
@@ -93,10 +77,6 @@ Note
 For more information about dashboards, see [Create a dashboard in the Azure portal](https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards) in the Azure documentation.
 
 # Manage diagnostic logging
-
-Completed 100 XP
-
-- 3 minutes
 
 Diagnostic logging enables you to capture rich operational data for an Azure AI services resource, which can be used to analyze service usage and troubleshoot problems.
 

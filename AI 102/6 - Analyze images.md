@@ -12,10 +12,6 @@ After completing this module, you’ll be able to:
 - Generate a smart cropped thumbnail.
 # Provision an Azure AI Vision resource
 
-Completed 100 XP
-
-- 3 minutes
-
 The **Azure AI Vision** service is designed to help you extract information from images. It provides functionality that you can use for:
 
 - _Description and tag generation_ - determining an appropriate caption for an image, and identifying relevant "tags" that can be used as keywords to indicate its subject.
@@ -37,10 +33,6 @@ Note
 In this module, we'll focus on the image analysis and thumbnail generation capabilities of the Azure AI Vision service. To learn how to use the Azure AI Vision service for optical character recognition, check out the [Read Text in images and documents with the Azure AI Vision service](https://learn.microsoft.com/en-us/training/modules/read-text-images-documents-with-computer-vision-service/) module.
 
 # Analyze an image
-
-Completed 100 XP
-
-- 3 minutes
 
 Choose your development language
 
@@ -122,10 +114,6 @@ JSON
 ```
 
 # Generate a smart-cropped thumbnail and remove background
-
-Completed 100 XP
-
-- 5 minutes
 
 Thumbnails are often used to provide smaller versions of images in applications and websites. For example, a tourism site might display a list of tourist attractions in a city with a small, representative thumbnail image for each attraction; and only display the full image when the user selects the "details" page for an individual attraction.
 

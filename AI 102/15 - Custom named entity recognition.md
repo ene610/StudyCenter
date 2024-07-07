@@ -14,10 +14,6 @@ After completing this module, you'll be able to:
 - Submit extraction tasks from your own app.
 # Understand custom named entity recognition
 
-Completed 100 XP
-
-- 7 minutes
-
 Custom NER is an Azure API service that looks at documents, identifies, and extracts user defined entities. These entities could be anything from names and addresses from bank statements to knowledge mining to improve search results.
 
 Custom NER is part of Azure AI Language in Azure AI services.
@@ -155,10 +151,6 @@ The Azure AI Language service enforces the following restrictions:
 See the [Service limits for Azure AI Language](https://learn.microsoft.com/en-us/azure/ai-services/language-service/concepts/data-limits) page for detailed information.
 # Label your data
 
-Completed 100 XP
-
-- 4 minutes
-
 Labeling, or tagging, your data correctly is an important part of the process to create a custom entity extraction model. Labels identify examples of specific entities in text used to train the model. Three things to focus on are:
 
 - **Consistency** - Label your data the same way across all files for training. Consistency allows your model to learn without any conflicting inputs.
@@ -261,10 +253,6 @@ JSON
 |`length`|Length in characters of the entity|
 |`dataset`|Which dataset the file is assigned to|
 # Train and evaluate your model
-
-Completed 100 XP
-
-- 3 minutes
 
 Training and evaluating your model is an iterative process of adding data and labels to your training dataset to teach the model more accurately. To know what types of data and labels need to be improved, Language Studio provides scoring in the **View model details** page on the left hand pane.
 

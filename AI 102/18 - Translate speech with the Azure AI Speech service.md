@@ -11,10 +11,6 @@ In this module, you'll learn how to:
 The units in the module include important conceptual information about Azure AI Speech and how to use its API through one of the supported software development kits (SDKs), after which you're able to try Azure AI Speech for yourself in a hands-on exercise. To complete the hands-on exercise, you'll need a Microsoft Azure subscription. If you don't already have one, you can sign up for a free trial at [https://azure.com/free](https://azure.com/free)
 # Provision an Azure resource for speech translation
 
-Completed 100 XP
-
-- 3 minutes
-
 The Azure AI Speech service provides robust, machine learning and artificial intelligence-based speech translation services, enabling developers to add end-to-end, real-time, speech translations to their applications or services. You can use either a dedicated Azure AI Speech resource or a multi-service Azure AI Services resource.
 
 Before you can use the service, you need to create an Azure AI Speech resource in your Azure subscription.
@@ -26,10 +22,6 @@ After creating your Azure resource, you'll need the following information to use
 
 You can view of these values on the **Keys and Endpoint** page for your resource in the Azure portal.
 # Translate speech to text
-
-Completed 100 XP
-
-- 3 minutes
 
 The pattern for speech translation using the Azure AI Speech SDK is similar to speech recognition, with the addition of information about the source and target languages for translation:
 
@@ -57,10 +49,6 @@ The pattern for speech translation using the Azure AI Speech SDK is similar to s
 
 If the operation was successful, the **Reason** property has the enumerated value **RecognizedSpeech**, the **Text** property contains the transcription in the original language. You can also access a **Translations** property which contains a dictionary of the translations (using the two-character ISO language code, such as "en" for English, as a key).
 # Synthesize translations
-
-Completed 100 XP
-
-- 3 minutes
 
 The **TranslationRecognizer** returns translated transcriptions of spoken input - essentially translating audible speech to text.
 

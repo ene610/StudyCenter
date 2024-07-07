@@ -11,10 +11,6 @@ In this module, you will learn how to use Azure AI Language to:
 - Extract key phrases, entities, and linked entities.
 # Provision an Azure AI Language resource
 
-Completed 100 XP
-
-- 3 minutes
-
 Azure AI Language is designed to help you extract information from text. It provides functionality that you can use for:
 
 - _Language detection_ - determining the language in which text is written.
@@ -40,10 +36,6 @@ Note
 
 The code examples in the subsequent units in this module show the JSON requests and responses exchanged with the REST interface. When using an SDK, the JSON requests are abstracted by appropriate objects and methods that encapsulate the same data values. You'll get a chance to try the SDK for C# or Python for yourself in the exercise later in the module.
 # Detect language
-
-Completed 100 XP
-
-- 5 minutes
 
 The Azure AI Language detection API evaluates text input and, for each document submitted, returns language identifiers with a score indicating the strength of the analysis.
 
@@ -173,10 +165,6 @@ JSON
 ```
 # Extract key phrases
 
-Completed 100 XP
-
-- 2 minutes
-
 Key phrase extraction is the process of evaluating the text of a document, or documents, and then identifying the main points around the context of the document(s).
 
 Key phrase extraction works best for larger documents (the maximum size that can be analyzed is 5,120 characters).
@@ -244,10 +232,6 @@ JSON
 }
 ```
 # Analyze sentiment
-
-Completed 100 XP
-
-- 3 minutes
 
 Sentiment analysis is used to evaluate how positive or negative a text document is, which can be useful in various workloads, such as:
 
@@ -327,10 +311,6 @@ Overall document sentiment is based on sentences:
 - If the sentence classifications include only negative and neutral, the overall sentiment is negative.
 - If the sentence classifications include positive and negative, the overall sentiment is mixed.
 # Extract entities
-
-Completed 100 XP
-
-- 3 minutes
 
 Named Entity Recognition identifies entities that are mentioned in the text. Entities are grouped into categories and subcategories, for example:
 
@@ -415,10 +395,6 @@ JSON
 
 To learn more about entities see the [Build a conversational language understanding model](https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/) module.
 # Extract linked entities
-
-Completed 100 XP
-
-- 3 minutes
 
 In some cases, the same name might be applicable to more than one entity. For example, does an instance of the word "Venus" refer to the planet or the goddess from mythology?
 

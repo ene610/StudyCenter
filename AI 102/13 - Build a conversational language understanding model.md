@@ -25,10 +25,6 @@ After completing this module, you’ll be able to:
 - Train, test, publish, and review a model.
 # Understand prebuilt capabilities of the Azure AI Language service
 
-Completed 100 XP
-
-- 6 minutes
-
 The Azure AI Language service provides various features for understanding human language. You can use each feature to better communicate with users, better understand incoming communication, or use them together to provide more insight into what the user is saying, intending, and asking about.
 
 Azure AI Language service features fall into two categories: Pre-configured features, and Learned features. Learned features require building and training a model to correctly predict appropriate labels, which is covered in upcoming units of this module.
@@ -97,10 +93,6 @@ For example, say you want to make a virtual chat assistant on your company websi
 
 For a complete list of capabilities and how to use them, see the Azure AI Language [documentation](https://learn.microsoft.com/en-us/azure/ai-services/language-service/overview).
 # Understand resources for building a conversational language understanding model
-
-Completed 100 XP
-
-- 9 minutes
 
 To use the Language Understanding service to develop a NLP solution, you'll need to create a Language resource in Azure. That resource will be used for both authoring your model and processing prediction requests from client applications.
 
@@ -440,10 +432,6 @@ For full documentation on features, including examples and how-to guides, see th
 
 # Define intents, utterances, and entities
 
-Completed 100 XP
-
-- 5 minutes
-
 _Utterances_ are the phrases that a user might enter when interacting with an application that uses your language model. An _intent_ represents a task or action the user wants to perform, or more simply the _meaning_ of an utterance. You create a model by defining intents and associating them with one or more utterances.
 
 For example, consider the following list of intents and associated utterances:
@@ -499,10 +487,6 @@ You can split entities into a few different component types:
 
 # Use patterns to differentiate similar utterances
 
-Completed 100 XP
-
-- 2 minutes
-
 In some cases, a model might contain multiple intents for which utterances are likely to be similar. You can use the pattern of utterances to disambiguate the intents while minimizing the number of sample utterances.
 
 For example, consider the following utterances:
@@ -529,10 +513,6 @@ To correctly train your model, provide a handful of examples of each intent that
 When you teach your model with each different type of utterance, the Azure AI Language service can learn how to categorize intents correctly based off format and punctuation.
 # Use pre-built entity components
 
-Completed 100 XP
-
-- 1 minute
-
 You can create your own language models by defining all the intents and utterances it requires, but often you can use prebuilt components to detect common entities such as numbers, emails, URLs, or choices.
 
 For a full list of prebuilt entities the Azure AI Language service can detect, see the list of [supported prebuilt entity components.](https://learn.microsoft.com/en-us/azure/ai-services/language-service/conversational-language-understanding/prebuilt-component-reference)
@@ -545,10 +525,6 @@ To add a prebuilt component, you can create an entity in your project, then sele
 
 You can have up to five prebuilt components per entity. Using prebuilt model elements can significantly reduce the time it takes to develop a conversational language understanding solution.
 # Train, test, publish, and review a conversational language understanding model
-
-Completed 100 XP
-
-- 1 minute
 
 Creating a model is an iterative process with the following activities:
 

@@ -10,10 +10,6 @@ After completing this module, you’ll be able to:
 - Create a question answering bot to interact with using natural language.
 # Understand question answering
 
-Completed 100 XP
-
-- 2 minutes
-
 **Azure AI Language** includes a _question answering_ capability, which enables you to define a _knowledge base_ of question and answer pairs that can be queried using natural language input. The knowledge base can be published to a REST endpoint and consumed by client applications, commonly _bots_.
 
 ![A diagram showing how a conversational app uses a knowledge base of questions and answers.](https://learn.microsoft.com/en-gb/training/wwl-data-ai/create-question-answer-solution-ai-language/media/diagram.png)
@@ -29,28 +25,20 @@ Note
 The question answering capability of Azure AI Language is a newer version of the **QnA Service**, which still exists as a standalone service. To learn how to migrate a QnA Maker knowledge base to Azure AI Language, see the [migration guide](https://learn.microsoft.com/en-us/azure/ai-services/language-service/question-answering/how-to/migrate-qnamaker).
 # Compare question answering to Azure AI Language understanding
 
-Completed 100 XP
-
-- 2 minutes
-
 A question answering knowledge base is a form of language model, which raises the question of when to use question answering, and when to use the _conversational language understanding_ capabilities of Azure AI Language.
 
 The two features are similar in that they both enable you to define a language model that can be queried using natural language expressions. However, there are some differences in the use cases that they are designed to address, as shown in the following table:
 
-|Question answering|Language understanding|
-|---|---|---|
-|Usage pattern|User submits a question, expecting an answer|User submits an utterance, expecting an appropriate response or action|
-|Query processing|Service uses natural language understanding to match the question to an answer in the knowledge base|Service uses natural language understanding to interpret the utterance, match it to an intent, and identify entities|
-|Response|Response is a static answer to a known question|Response indicates the most likely intent and referenced entities|
-|Client logic|Client application typically presents the answer to the user|Client application is responsible for performing appropriate action based on the detected intent|
+|                  | Question answering                                                                                   | Language understanding                                                                                               |
+| ---------------- | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Usage pattern    | User submits a question, expecting an answer                                                         | User submits an utterance, expecting an appropriate response or action                                               |
+| Query processing | Service uses natural language understanding to match the question to an answer in the knowledge base | Service uses natural language understanding to interpret the utterance, match it to an intent, and identify entities |
+| Response         | Response is a static answer to a known question                                                      | Response indicates the most likely intent and referenced entities                                                    |
+| Client logic     | Client application typically presents the answer to the user                                         | Client application is responsible for performing appropriate action based on the detected intent                     |
 
 The two services are in fact complementary. You can build comprehensive natural language solutions that combine language understanding models and question answering knowledge bases.
 
 # Create a knowledge base
-
-Completed 100 XP
-
-- 2 minutes
 
 To create a question answering solution, you can use the REST API or SDK to write code that defines, trains, and publishes the knowledge base. However, it's more common to use the [Language Studio](https://language.azure.com) web interface to define and manage a knowledge base.
 
@@ -76,10 +64,6 @@ To create a knowledge base you:
 7. Edit question and answer pairs in the portal.
 # Implement multi-turn conversation
 
-Completed 100 XP
-
-- 2 minutes
-
 Although you can often create an effective knowledge base that consists of individual question and answer pairs, sometimes you might need to ask follow-up questions to elicit more information from a user before presenting a definitive answer. This kind of interaction is referred to as a _multi-turn_ conversation.
 
 ![A diagram showing a multi-turn conversation.](https://learn.microsoft.com/en-gb/training/wwl-data-ai/create-question-answer-solution-ai-language/media/multi-turn-conversation.png)
@@ -90,10 +74,6 @@ For example, suppose an initial question for a travel booking knowledge base is 
 
 When you define a follow-up prompt for multi-turn conversation, you can link to an existing answer in the knowledge base or define a new answer specifically for the follow-up. You can also restrict the linked answer so that it is only ever displayed in the context of the multi-turn conversation initiated by the original question.
 # Test and publish a knowledge base
-
-Completed 100 XP
-
-- 1 minute
 
 After you have defined a knowledge base, you can train its natural language model, and test it before publishing it for use in an application or bot.
 
@@ -107,10 +87,6 @@ You can test your knowledge base interactively in Language Studio, submitting qu
 
 When you are happy with the performance of your knowledge base, you can deploy it to a REST endpoint that client applications can use to submit questions and receive answers. You can deploy it directly from Language Studio.
 # Use a knowledge base
-
-Completed 100 XP
-
-- 3 minutes
 
 To consume the published knowledge base, you can use the REST interface.
 
@@ -165,10 +141,6 @@ JSON
 }
 ```
 # Improve question answering performance
-
-Completed 100 XP
-
-- 6 minutes
 
 After creating and testing a knowledge base, you can improve its performance with _active learning_ and by defining _synonyms_.
 

@@ -335,10 +335,6 @@ def permutations(lst):
 ```
 # Fix bugs and improve your code
 
-Completed 100 XP
-
-- 7 minutes
-
 Choose your development language
 
 Developers sometimes can write code that mostly works, but could be improved by fixing bugs, syntax, performance, or modularity. Azure OpenAI models can help identify ways to improve and provide suggestions on how to write better code.

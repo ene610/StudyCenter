@@ -15,10 +15,6 @@ In this module, you'll learn how to:
 - Develop an application that can read printed and handwritten text
 # Explore Azure AI Vision options for reading text
 
-Completed 100 XP
-
-- 3 minutes
-
 Azure AI provides two different features that read text from documents and images, one in the Azure AI Vision Service, the other in Azure AI Document Intelligence. There is overlap in what each service provides, however each is optimized for results depending on what the input is.
 
 - **Image Analysis** Optical character recognition (OCR):
@@ -36,19 +32,13 @@ You can access both technologies via the REST API or a client library. In this m
 
 # Use the Read API
 
-Completed 100 XP
-
-- 3 minutes
-
 To use the Read OCR feature, call the **ImageAnalysis** function (REST API or equivalent SDK method), passing the image URL or binary data, and optionally specifying a gender neutral caption or the language the text is written in (with a default value of **en** for English).
 
 To make an OCR request to **ImageAnalysis**, specify the visual feature as `READ`.
 
 **C#**
 
-C#
-
-```
+```C#
 ImageAnalysisResult result = client.Analyze(
     <image-to-analyze>,
     VisualFeatures.Read);
@@ -56,9 +46,7 @@ ImageAnalysisResult result = client.Analyze(
 
 **Python**
 
-Python
-
-```
+```Python
 result = client.analyze(
     image_url=<image_to_analyze>,
     visual_features=[VisualFeatures.READ]
