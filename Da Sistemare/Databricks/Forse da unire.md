@@ -1,0 +1,1 @@
+nel caso in cui un data engineer avesse abbandonato l'organizzazione per trasferire la ownership dei dati dovrebbe contattare il workspace administrator

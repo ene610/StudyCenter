@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "591dd6a652d1f3b8",
+            "id": "4648c3afe239951e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI 102/10 - Analyze video.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96fe6100b7c8766e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DP 600/1-Introduction to end-to-end analytics using Microsoft Fabric.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01213ad35dce1934",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spark Developer/Appunti Spark course.md",
+                "file": "Databricks/Managed vs external table.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spark Developer/Appunti Spark course.md",
+                "file": "Databricks/Managed vs external table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spark Developer/Appunti Spark course.md",
+                "file": "Databricks/Managed vs external table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spark Developer/Appunti Spark course.md"
+                "file": "Databricks/Managed vs external table.md"
               }
             }
           }
@@ -171,53 +146,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "01213ad35dce1934",
+  "active": "4648c3afe239951e",
   "lastOpenFiles": [
+    "Databricks/Databricks repo.md",
+    "Databricks/IMG/best pratice.png",
+    "Databricks/IMG/databricks repo.png",
+    "Databricks/Forse da unire.md",
+    "Databricks/Managed vs external table.md",
+    "Databricks/Databricks Architecture & Services.md",
+    "Databricks/IMG/databricks architecture.png",
+    "Databricks/IMG",
+    "Databricks",
+    "DP 600/cancellami/tesina cippesca.md",
+    "DP 600/cancellami/Introduzione Fabric.md",
+    "DP 600/cancellami/Intro Fabric.md",
+    "DP 600/cancellami/SHortcut fabric.md",
+    "DP 600/cancellami/OneSecurity.md",
+    "DP 600/cancellami/DT vs DO.md",
+    "DP 600/Book/Introduction Fabric.md",
+    "DP 600/Book/core capabilities Fabric.png",
+    "DP 600/Notes/Appunti sparsi.md",
+    "DP 600/cancellami",
+    "DP 600/Book/oneSecurity1.png",
+    "DP 600/Book/shortcut1.png",
+    "DP 600/Notes/Pasted image 20240804111243.png",
+    "DP 600/Notes/Perform exploratory analytics.md",
+    "DP 600/Book",
+    "DP 600/Notes/Study guide.md",
+    "DP 600/Notes/img/acessing the T-SQL engine.png",
+    "DP 600/Notes/img/PBI_visuals_1.png",
+    "DP 600/Notes/Query data using T-SQL.md",
+    "DP 600/Notes/img",
+    "DP 600/Notes/Untitled.md",
+    "DP 600/Notes/img/PBI_visuals_4.png",
+    "Untitled.canvas",
+    "DP 600/Notes",
+    "AI 102/10 - Analyze video.md",
+    "DP 600/Untitled - Copia (3).md",
+    "DP 600/1-Introduction to end-to-end analytics using Microsoft Fabric.md",
+    "DP 600/Untitled - Copia.md",
+    "Spark Developer/Appunti Spark course.md",
     "Spark Developer/Appunti Databricks Spark Developer.md",
-    "Spark Developer/IMG Spark Course/Caching & storage levels.png",
     "DP 600/Untitled - Copia (29).md",
     "DP 600/Untitled - Copia (28).md",
     "DP 600/Untitled - Copia (27).md",
-    "DP 600/Untitled - Copia (26).md",
-    "DP 600/Untitled - Copia (25).md",
-    "DP 600/Untitled - Copia (24).md",
-    "DP 600/Untitled - Copia (23).md",
-    "DP 600/Untitled - Copia (22).md",
-    "DP 600/Untitled - Copia (21).md",
-    "DP 600/Untitled - Copia (20).md",
-    "DP 600/Untitled - Copia (19).md",
-    "DP 600/Untitled - Copia (18).md",
-    "DP 600/Untitled - Copia (17).md",
-    "DP 600/Untitled - Copia (16).md",
-    "DP 600/Untitled - Copia (15).md",
-    "DP 600/Untitled - Copia (14).md",
-    "DP 600/Untitled - Copia (13).md",
-    "DP 600/Untitled - Copia (12).md",
-    "DP 600/Untitled - Copia (11).md",
-    "DP 600/Untitled - Copia (10).md",
-    "DP 600/Untitled - Copia (9).md",
-    "DP 600/Untitled - Copia (8).md",
-    "DP 600/Untitled - Copia (7).md",
-    "DP 600/Untitled - Copia (6).md",
-    "DP 600/Untitled - Copia (5).md",
     "DP 600",
-    "img boh/Pasted image 20240429100143.png",
-    "img boh/Pasted image 20240430092548.png",
     "img boh",
-    "img boh/Pasted image 20240429122344.png",
-    "img boh/Pasted image 20240429120155.png",
-    "img boh/Pasted image 20240429115246.png",
-    "img boh/Pasted image 20240429112401.png",
-    "img boh/Pasted image 20240429103950.png",
-    "img boh/Pasted image 20240429102953.png",
-    "img boh/Pasted image 20240429102026.png",
     "Untitled 2",
-    "Untitled 1",
-    "AI102 Nuova",
-    "Test EXPORT",
-    "Spark Developer appunti.rar",
-    "AI 102",
-    "Spark Developer/IMG Spark Course",
-    "Spark Developer/IMG Databricks Course/Delta lake"
+    "Untitled 1"
   ]
 }
